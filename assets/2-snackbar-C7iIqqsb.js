@@ -1,0 +1,2 @@
+import{i as s}from"./vendor-BbSUbo7J.js";document.querySelector(".form").addEventListener("submit",function(i){i.preventDefault();const t=parseInt(this.elements.delay.value),o=this.elements.state.value;new Promise((e,a)=>{setTimeout(()=>{o==="fulfilled"?e(t):a(t)},t)}).then(e=>{s.success({title:"Успіх",message:`✅ Проміс виконано через ${e} мс`})}).catch(e=>{s.error({title:"Помилка",message:`❌ Проміс відхилено через ${e} мс`})})});
+//# sourceMappingURL=2-snackbar-C7iIqqsb.js.map
